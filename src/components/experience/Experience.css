@@ -1,3 +1,8 @@
+#experience {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
 .experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
