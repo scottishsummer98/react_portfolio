@@ -5,9 +5,9 @@ import {
   AiFillSafetyCertificate,
   AiOutlineHome,
   AiOutlineUser,
+  AiOutlineUsergroupAdd,
 } from 'react-icons/ai'
-import { BiCategoryAlt, BiBook, BiMessageSquareDetail } from 'react-icons/bi'
-import { RiServiceLine } from 'react-icons/ri'
+import { BiCategoryAlt, BiCodeAlt, BiMessageSquareDetail } from 'react-icons/bi'
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState('#')
@@ -28,23 +28,23 @@ const Navbar = () => {
         <AiOutlineUser />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav('#experience')}
-        className={activeNav === '#experience' ? 'active' : ''}
+        href="#experiencepg"
+        onClick={() => setActiveNav('#experiencepg')}
+        className={activeNav === '#experiencepg' ? 'active' : ''}
       >
-        <BiBook />
+        <BiCodeAlt />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav('#services')}
-        className={activeNav === '#services' ? 'active' : ''}
+        href="#experiencesft"
+        onClick={() => setActiveNav('#experiencesft')}
+        className={activeNav === '#experiencesft' ? 'active' : ''}
       >
-        <RiServiceLine />
+        <AiOutlineUsergroupAdd />
       </a>
       <a
-        href="#portfolio"
-        onClick={() => setActiveNav('#portfolio')}
-        className={activeNav === '#portfolio' ? 'active' : ''}
+        href="#projects"
+        onClick={() => setActiveNav('#projects')}
+        className={activeNav === '#projects' ? 'active' : ''}
       >
         <BiCategoryAlt />
       </a>
