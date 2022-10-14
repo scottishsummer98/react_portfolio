@@ -15,13 +15,13 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experiencepg">Programming Skills</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#experiencesft">Other Skills</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#projects">Portfolio</a>
         </li>
         <li>
           <a href="#testimonials">Testimonials</a>
@@ -31,16 +31,16 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer_socials">
-        <a href="https://linkedin.com" target="_blank">
+        <a href="https://www.linkedin.com/in/scottishsummer/" target="_blank">
           <BsLinkedin />
         </a>
-        <a href="https://github.com" target="_blank">
+        <a href="https://github.com/scottishsummer98" target="_blank">
           <BsGithub />
         </a>
-        <a href="https://facebook.com" target="_blank">
+        <a href="https://facebook.com/scottishsummer" target="_blank">
           <BsFacebook />
         </a>
-        <a href="https://twitter.com" target="_blank">
+        <a href="https://twitter.com/sseekhkebabb" target="_blank">
           <BsTwitter />
         </a>
       </div>

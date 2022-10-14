@@ -62,17 +62,6 @@ const data = [
     github: 'https://github.com/scottishsummer98/react_ecom',
     demo: 'https://ehat.netlify.app/',
   },
-  {
-    id: 4,
-    image1: Project1,
-    image2: Project2,
-    image3: Project3,
-    image4: Project4,
-    image5: Project5,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: 'https://dribble.com/Alien_pixels',
-  },
 ]
 
 const Projects = () => {

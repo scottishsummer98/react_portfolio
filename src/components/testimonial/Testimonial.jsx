@@ -1,9 +1,9 @@
 import React from 'react'
 import './Testimonial.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR1 from '../../assets/Avatar1.jpeg'
+import AVTR2 from '../../assets/Avatar2.jpg'
+import AVTR3 from '../../assets/Avatar3.jpg'
+import AVTR4 from '../../assets/Avatar4.jpg'
 // import Swiper core and required modules
 import { Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -14,34 +14,37 @@ import 'swiper/css/pagination'
 const data = [
   {
     avatar: AVTR1,
-    name: 'Tina Snow',
+    name: 'Zia Md. Giasuddin',
+    desig: 'GM & Head Of IT, Mercantile Islami Life Insurance Company Ltd',
     review:
-      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived for only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.',
+      'Very passionate and innovative young mind always looking to go ahead of ownself setting new personal goals. Would surely be an asset for any company',
   },
   {
     avatar: AVTR2,
-    name: 'Jon Blake',
+    name: 'Md Sharif Alam Priom',
+    desig: 'Software Developer, Mercantile Islami Life Insurance Company Ltd',
     review:
-      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived for only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.',
+      'Amazing co-worker and human being. I have always find himself eager to learn new things and has amazing problem solving and analytical skills. Lovely to have such a colleague who is always there for you.',
   },
   {
     avatar: AVTR3,
-    name: 'Miles Morales',
+    name: 'Md Razwanul Ghani',
+    desig: 'Software Engineer, Tikweb Dhaka',
     review:
-      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived for only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.',
+      'I witnessed first hand how quickly he can adapt to new surroundings and can still excel amidst the hostile of the situations. Looking forward to work with him again',
   },
   {
     avatar: AVTR4,
-    name: 'Saima Hadid',
+    name: 'Mir Istiak Tarek',
+    desig: 'Android Developer, Mercantile Islami Life Insurance Company Ltd',
     review:
-      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived for only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.',
+      'His behavior with everyone in the office is always very friendly and not only he is an amazing co-worker but also an amazing listener too. He makes the work environment very lively',
   },
 ]
 
 const Testimonial = () => {
   return (
     <section id="testimonials">
-      <h5>Review From Clients</h5>
       <h2>Testimonials</h2>
       <Swiper
         className="container testimonials_container"
@@ -50,13 +53,14 @@ const Testimonial = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ avatar, name, desig, review }, index) => {
           return (
             <SwiperSlide className="testimonial">
               <div className="client_avatar">
                 <img src={avatar} alt="ClientPicture" />
               </div>
-              <h5 className="client_name">{name}</h5>
+              <h4 className="client_name">{name}</h4>
+              <h5 className="client_name">{desig}</h5>
               <small className="client_review">{review}</small>
             </SwiperSlide>
           )
