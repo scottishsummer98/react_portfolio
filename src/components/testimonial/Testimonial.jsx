@@ -31,7 +31,7 @@ const data = [
     name: 'Md Razwanul Ghani',
     desig: 'Software Engineer, Tikweb Dhaka',
     review:
-      'I witnessed first hand how quickly he can adapt to new surroundings and can still excel amidst the hostile of the situations. Looking forward to work with him again',
+      'Samiur Rahman is a quick learner. He is very keen to learn new technologies. He keeps patience in tough situations and brings out the best of him. He is an efficient PHP and Laravel developer. He always maintained best practices. I wish him for better career.',
   },
   {
     avatar: AVTR4,
