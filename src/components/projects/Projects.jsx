@@ -22,6 +22,11 @@ import ehat2 from '../../assets/ehat2.jpg'
 import ehat3 from '../../assets/ehat3.jpg'
 import ehat4 from '../../assets/ehat4.jpg'
 import ehat5 from '../../assets/ehat5.jpg'
+import dp1 from '../../assets/dp1.jpg'
+import dp2 from '../../assets/dp2.jpg'
+import dp3 from '../../assets/dp3.jpg'
+import dp4 from '../../assets/dp4.jpg'
+import dp5 from '../../assets/dp5.jpg'
 
 const data = [
   {
@@ -57,10 +62,24 @@ const data = [
     image3: ehat3,
     image4: ehat4,
     image5: ehat5,
-    title:
+    title: 'EHAT Ecommerce',
+    details:
       'This is an amazone clone front-end built on react. You can browse products and add/remove them from your shopping cart. Basic authentication is done by google firebase',
     github: 'https://github.com/scottishsummer98/react_ecom',
     demo: 'https://ehat.netlify.app/',
+  },
+  {
+    id: 4,
+    image1: dp1,
+    image2: dp2,
+    image3: dp3,
+    image4: dp4,
+    image5: dp5,
+    title: 'DP Dental',
+    details:
+      'This is a doctor portfolio website with authentication and admin panel. I did it as an independent project. This was built with Laravel back-end and Vue.js front-end. For admin panel, I have used adminlte-3.',
+    github: 'https://github.com/scottishsummer98/dpweb',
+    demo: 'https://github.com/scottishsummer98/dpweb',
   },
 ]
 
