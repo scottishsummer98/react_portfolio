@@ -27,6 +27,11 @@ import dp2 from '../../assets/dp2.jpg'
 import dp3 from '../../assets/dp3.jpg'
 import dp4 from '../../assets/dp4.jpg'
 import dp5 from '../../assets/dp5.jpg'
+import kamp1 from '../../assets/kamp1.jpg'
+import kamp2 from '../../assets/kamp2.jpg'
+import kamp3 from '../../assets/kamp3.jpg'
+import kamp4 from '../../assets/kamp4.jpg'
+import kamp5 from '../../assets/kamp5.jpg'
 
 const data = [
   {
@@ -80,6 +85,19 @@ const data = [
       'This is a doctor portfolio website with authentication and admin panel. I did it as an independent project. This was built with Laravel back-end and Vue.js front-end. For admin panel, I have used adminlte-3.',
     github: 'https://github.com/scottishsummer98/dpweb',
     demo: 'https://github.com/scottishsummer98/dpweb',
+  },
+  {
+    id: 5,
+    image1: kamp1,
+    image2: kamp2,
+    image3: kamp3,
+    image4: kamp4,
+    image5: kamp5,
+    title: 'Kampsoahus Restaurant',
+    details:
+      'This is react front-end project of a restaurant website. Design idea was taken from famous Hawksmoore steakhouse website. It has email sending functionality from the website via emailjs. Hosting was done by netlify',
+    github: 'https://github.com/scottishsummer98/react_restaurant',
+    demo: 'https://kampsoahus.netlify.app/',
   },
 ]
 
