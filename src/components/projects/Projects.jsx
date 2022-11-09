@@ -32,6 +32,11 @@ import kamp2 from '../../assets/kamp2.jpg'
 import kamp3 from '../../assets/kamp3.jpg'
 import kamp4 from '../../assets/kamp4.jpg'
 import kamp5 from '../../assets/kamp5.jpg'
+import tms1 from '../../assets/tms1.jpg'
+import tms2 from '../../assets/tms2.jpg'
+import tms3 from '../../assets/tms3.jpg'
+import tms4 from '../../assets/tms4.jpg'
+import tms5 from '../../assets/tms5.jpg'
 
 const data = [
   {
@@ -62,6 +67,19 @@ const data = [
   },
   {
     id: 3,
+    image1: kamp1,
+    image2: kamp2,
+    image3: kamp3,
+    image4: kamp4,
+    image5: kamp5,
+    title: 'Kampsoahus Restaurant',
+    details:
+      'This is react front-end project of a restaurant website. Design idea was taken from famous Hawksmoore steakhouse website. It has email sending functionality from the website via emailjs. Hosting was done by netlify',
+    github: 'https://github.com/scottishsummer98/react_restaurant',
+    demo: 'https://kampsoahus.netlify.app/',
+  },
+  {
+    id: 4,
     image1: ehat1,
     image2: ehat2,
     image3: ehat3,
@@ -74,7 +92,7 @@ const data = [
     demo: 'https://ehat.netlify.app/',
   },
   {
-    id: 4,
+    id: 5,
     image1: dp1,
     image2: dp2,
     image3: dp3,
@@ -87,17 +105,17 @@ const data = [
     demo: 'https://github.com/scottishsummer98/dpweb',
   },
   {
-    id: 5,
-    image1: kamp1,
-    image2: kamp2,
-    image3: kamp3,
-    image4: kamp4,
-    image5: kamp5,
-    title: 'Kampsoahus Restaurant',
+    id: 6,
+    image1: tms1,
+    image2: tms2,
+    image3: tms3,
+    image4: tms4,
+    image5: tms5,
+    title: 'Task Management System (TMS)',
     details:
-      'This is react front-end project of a restaurant website. Design idea was taken from famous Hawksmoore steakhouse website. It has email sending functionality from the website via emailjs. Hosting was done by netlify',
-    github: 'https://github.com/scottishsummer98/react_restaurant',
-    demo: 'https://kampsoahus.netlify.app/',
+      'This is a task management system built with laravel back-end and laravel blade front-end. Users can assign task to other registered user and pin own tasks, mark them as done,doing or pending. Assigned tasks will be shown in the task dashboard for each user individually.',
+    github: 'https://github.com/scottishsummer98/php_laravel_blade_tms',
+    demo: 'https://github.com/scottishsummer98/php_laravel_blade_tms',
   },
 ]
 
