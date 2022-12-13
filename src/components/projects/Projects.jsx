@@ -92,7 +92,7 @@ const data = [
     image5: jb5,
     title: 'Jinnbook (On going)',
     details:
-      'This is a social media platform like facebook, but for jinns. They can add, remove, follow, send friends requests to other jinns. Post status,pictures, update cover photos and display pictures. They can create, follow and post on pages. Built with Vue.js front-end and a Laravel back-end.',
+      'This is a social media platform like facebook, but for jinns. They can add, remove, follow, send friends requests to other jinns. Post status,pictures, update cover photos and display pictures. They can create, follow and post on pages. Built with Vue.js front-end and a Laravel back-end. Admin LTE has been used for the admin panel',
     github: 'https://github.com/scottishsummer98/laravel_vue_socialplatform',
     demo: 'https://github.com/scottishsummer98/laravel_vue_socialplatform',
   },
