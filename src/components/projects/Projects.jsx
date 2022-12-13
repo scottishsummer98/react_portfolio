@@ -37,6 +37,11 @@ import tms2 from '../../assets/tms2.jpg'
 import tms3 from '../../assets/tms3.jpg'
 import tms4 from '../../assets/tms4.jpg'
 import tms5 from '../../assets/tms5.jpg'
+import jb1 from '../../assets/jb1.jpg'
+import jb2 from '../../assets/jb2.jpg'
+import jb3 from '../../assets/jb3.jpg'
+import jb4 from '../../assets/jb4.jpg'
+import jb5 from '../../assets/jb5.jpg'
 
 const data = [
   {
@@ -80,16 +85,16 @@ const data = [
   },
   {
     id: 4,
-    image1: ehat1,
-    image2: ehat2,
-    image3: ehat3,
-    image4: ehat4,
-    image5: ehat5,
-    title: 'EHAT Ecommerce',
+    image1: jb1,
+    image2: jb2,
+    image3: jb3,
+    image4: jb4,
+    image5: jb5,
+    title: 'Jinnbook (On going)',
     details:
-      'This is an amazone clone front-end built on react. You can browse products and add/remove them from your shopping cart. Basic authentication is done by google firebase',
-    github: 'https://github.com/scottishsummer98/react_ecom',
-    demo: 'https://ehat.netlify.app/',
+      'This is a social media platform like facebook, but for jinns. They can add, remove, follow, send friends requests to other jinns. Post status,pictures, update cover photos and display pictures. They can create, follow and post on pages. Built with Vue.js front-end and a Laravel back-end.',
+    github: 'https://github.com/scottishsummer98/laravel_vue_socialplatform',
+    demo: 'https://github.com/scottishsummer98/laravel_vue_socialplatform',
   },
   {
     id: 5,
@@ -116,6 +121,19 @@ const data = [
       'This is a task management system built with laravel back-end and laravel blade front-end. Users can assign task to other registered user and pin own tasks, mark them as done,doing or pending. Assigned tasks will be shown in the task dashboard for each user individually.',
     github: 'https://github.com/scottishsummer98/php_laravel_blade_tms',
     demo: 'https://github.com/scottishsummer98/php_laravel_blade_tms',
+  },
+  {
+    id: 7,
+    image1: ehat1,
+    image2: ehat2,
+    image3: ehat3,
+    image4: ehat4,
+    image5: ehat5,
+    title: 'EHAT Ecommerce',
+    details:
+      'This is an amazone clone front-end built on react. You can browse products and add/remove them from your shopping cart. Basic authentication is done by google firebase',
+    github: 'https://github.com/scottishsummer98/react_ecom',
+    demo: 'https://ehat.netlify.app/',
   },
 ]
 
