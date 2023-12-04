@@ -25,7 +25,10 @@ const About = () => {
             <article className="about_card">
               <FiUsers className="about_icon" />
               <h5>Worked With</h5>
-              <small>Laravel, ASP.NET MVC, VUE, REACT</small>
+              <small>
+                React, React Native, Node, Express, MongoDB, ASP.NET MVC,
+                Laravel, Vue, MSSQL
+              </small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
